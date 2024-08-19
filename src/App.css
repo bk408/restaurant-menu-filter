@@ -62,3 +62,21 @@ button {
   font-size: 15px;
   color: #fff;
 }
+
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-input input {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(46, 139, 86, 0.853);
+}
+
+input::placeholder {
+  color: #fff;
+  font-size: 15px;
+}
